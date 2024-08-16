@@ -1,0 +1,22 @@
+add item in database
+http://localhost:5000/art/
+{
+  "artName": "Starry Night Updated",
+  "serial": 12345,
+  "src": "https://example.com/starry-night-updated.jpg",
+  "alt": "Updated description",
+  "bids": [
+    {
+      "user": "JohnDoe",
+      "bid": 6000
+    }
+  ]
+}
+
+
+add bid in database
+{
+  "user": "JaneDoe",
+  "bid": 7000
+}
+http://localhost:5000/art/{id}/bid
